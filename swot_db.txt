@@ -1,0 +1,54 @@
+TOPIC
+STRENGTH
+Efficacité du travail en groupe
+WEAKNESS
+Manque d'efficacité lors du travail en groupe
+OPPORTUNITY
+Travail en groupe
+THREAT
+Mauvaise efficacité du travail en groupe
+TOPIC
+STRENGTH
+Bonne intégration continue
+WEAKNESS
+Manque d'intégration continue
+OPPORTUNITY
+Intégration continue
+THREAT
+Intégration continue insuffisante
+TOPIC
+STRENGTH
+Maîtrise des outils
+WEAKNESS
+Difficulté à utiliser les outils
+OPPORTUNITY
+Bonne maîtrise des outils
+THREAT
+Manque de maîtrise des outils
+TOPIC
+STRENGTH
+Robustesse du code
+WEAKNESS
+Code peu robuste
+OPPORTUNITY
+Construction d'un code robuste
+THREAT
+Manque de robustesse du code
+TOPIC
+STRENGTH
+Méthode AGILE
+WEAKNESS
+Mauvaise utilisation de la méthode AGILE
+OPPORTUNITY
+Utilisation de la méthode AGILE
+THREAT
+Faible maîtrise de la méthode AGILE
+TOPIC
+STRENGTH
+Une force
+WEAKNESS
+Une faiblesse
+OPPORTUNITY
+Une opportunité
+THREAT
+Une menace
