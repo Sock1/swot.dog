@@ -51,7 +51,7 @@ const char* parse_args(int argc, char** argv)
 		|| strcmp(argv[i], "-prog2") == 0 || strcmp(argv[i], "prog2") == 0)
 	    prog2 = true;
 
-	else if (strncmp(argv[i], "-c", strlen("-c")) == 0)
+	else if (strncmp(argv[i], "-n", strlen("-n")) == 0)
 	{
 	    char* rest = strpbrk(argv[i], DIGITS);
 	    if (rest == NULL)
