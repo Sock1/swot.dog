@@ -22,6 +22,9 @@ int main(int argc, char** argv)
     size_t topic_count = 0;
     topics = get_topics(file, topics, &topic_count);
 
+    if (topic_count < 2 * topics_per_field)
+	fail("At least 2n topic entries are needed");
+
     // size_t swot_fields[4 * topics_per_field] = { 0 };
     size_t* swot_fields = calloc(4 * topics_per_field, sizeof(size_t));
     pick_random_fields(topic_count, swot_fields);

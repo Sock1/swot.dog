@@ -55,6 +55,7 @@ static bool incoherent_swot(size_t* topic_ids)
 }
 
 // topic_ids[fields][topics]
+// BEWARE! The loop never ends if there are less than 2 * topics_per_field topic entries available
 void pick_random_fields(size_t topic_count, size_t* topic_ids)
 {
     static bool random_init = false;
